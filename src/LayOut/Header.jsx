@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="navbar bg-[#ffffff61]">
         <div className="flex-1">
-            <img className="w-40" src="/public/Logo.png"></img>
+            <img className="w-40" src="https://i.ibb.co/ZSBYL9k/Logo.png"></img>
         </div>
         <div className="flex-none">
             <ul className="menu menu-horizontal px-1">

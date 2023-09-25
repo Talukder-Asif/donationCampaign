@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "title": "Donate for Medical Supplies",
+      "category": "Health",
+      "colors": ["#FF5733", "#A83232", "#FF8C00"],
+      "description": "Support our healthcare initiatives by donating for essential medical supplies. Your contribution helps us provide medical supplies to those in need.",
+      "price": 25.99,
+      "image": "https://example.com/medical.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Meal Assistance Fund",
+      "category": "Food",
+      "colors": ["#2E8B57", "#4CAF50", "#008000"],
+      "description": "Contribute to our Meal Assistance Fund to help provide nutritious meals to individuals and families facing food insecurity.",
+      "price": 10.49,
+      "image": "https://example.com/meal.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Scholarship Program",
+      "category": "Education",
+      "colors": ["#3366CC", "#3E4095", "#0078D4"],
+      "description": "Support education for underprivileged students by contributing to our Scholarship Program. Your donation helps students access quality education.",
+      "price": 50.00,
+      "image": "https://example.com/education.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Warm Clothing Drive",
+      "category": "Clothing",
+      "colors": ["#E64A19", "#FF5722", "#FF9800"],
+      "description": "Join our Warm Clothing Drive to provide winter clothing to those in need. Your donation helps keep people warm during cold seasons.",
+      "price": 15.99,
+      "image": "https://example.com/clothing.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Healthcare Outreach",
+      "category": "Health",
+      "colors": ["#FF5733", "#A83232", "#FF8C00"],
+      "description": "Contribute to our Healthcare Outreach program, which offers medical services to underserved communities. Your donation makes a difference in healthcare access.",
+      "price": 35.00,
+      "image": "https://example.com/healthcare.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Emergency Food Relief",
+      "category": "Food",
+      "colors": ["#2E8B57", "#4CAF50", "#008000"],
+      "description": "Help us provide emergency food relief to those affected by natural disasters and crises. Your donation ensures that no one goes hungry during difficult times.",
+      "price": 20.99,
+      "image": "https://example.com/emergency_food.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Digital Education Initiative",
+      "category": "Education",
+      "colors": ["#3366CC", "#3E4095", "#0078D4"],
+      "description": "Support our Digital Education Initiative, aimed at providing online learning resources to students in remote areas. Your donation bridges the digital divide in education.",
+      "price": 40.00,
+      "image": "https://example.com/digital_education.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Winter Clothing for Kids",
+      "category": "Clothing",
+      "colors": ["#E64A19", "#FF5722", "#FF9800"],
+      "description": "Donate to our Winter Clothing for Kids program, ensuring that children have warm clothing to stay healthy and comfortable during winter.",
+      "price": 12.99,
+      "image": "https://example.com/kids_clothing.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Health Education Workshops",
+      "category": "Health",
+      "colors": ["#FF5733", "#A83232", "#FF8C00"],
+      "description": "Contribute to our Health Education Workshops, promoting awareness and preventive healthcare practices in communities. Your donation supports health education programs.",
+      "price": 30.00,
+      "image": "https://example.com/health_education.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Community Soup Kitchens",
+      "category": "Food",
+      "colors": ["#2E8B57", "#4CAF50", "#008000"],
+      "description": "Support our Community Soup Kitchens, which provide hot meals to homeless individuals and those in need. Your donation ensures no one goes hungry.",
+      "price": 8.99,
+      "image": "https://example.com/soup_kitchen.jpg"
+    },
+    {
+      "id": 11,
+      "title": "STEM Education Scholarships",
+      "category": "Education",
+      "colors": ["#3366CC", "#3E4095", "#0078D4"],
+      "description": "Help us offer STEM (Science, Technology, Engineering, and Mathematics) education scholarships to talented students. Your donation empowers future innovators.",
+      "price": 55.00,
+      "image": "https://example.com/stem_scholarships.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Clothing for the Homeless",
+      "category": "Clothing",
+      "colors": ["#E64A19", "#FF5722", "#FF9800"],
+      "description": "Join our Clothing for the Homeless initiative, providing clean and warm clothing to individuals experiencing homelessness. Your donation offers comfort and dignity.",
+      "price": 18.99,
+      "image": "https://example.com/homeless_clothing.jpg"
+    }
+  ]
+  

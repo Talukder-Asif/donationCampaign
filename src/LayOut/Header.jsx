@@ -1,17 +1,20 @@
 import { NavLink } from "react-router-dom";
+import"./header.css"
 
 const Header = () => {
     return (
-        <div className="navbar bg-[#ffffff61]">
+        <div className="sticky top-0 md:relative z-50">
+            <div className=" md:navbar md:absolute bg-[#ffffff61]">
         <div className="flex-1">
-            <img className="w-40" src="https://i.ibb.co/ZSBYL9k/Logo.png"></img>
+            <img className="w-40 mx-auto md:mx-0 my-3" src="https://i.ibb.co/ZSBYL9k/Logo.png"></img>
         </div>
-        <div className="flex-none">
-            <ul className="menu menu-horizontal px-1">
-            <li><NavLink to={"/"}>Home</NavLink></li>
-            <li><NavLink to={'/donation'}>Donation</NavLink></li>
-            <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
+        <div className="flex-none text-center md:text-right">
+            <ul className="text-lg font-bold menu-horizontal md:px-1">
+            <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={"/"}>Home</NavLink></li>
+            <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={'/donation'}>Donation</NavLink></li>
+            <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={'/statistics'}>Statistics</NavLink></li>
             </ul>
+        </div>
         </div>
         </div>
     );

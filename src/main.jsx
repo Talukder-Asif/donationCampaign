@@ -9,6 +9,7 @@ import Mainlayout from './LayOut/Mainlayout';
 import Homepage from './Page/HomePage/Homepage';
 import DonationPage from './Page/Donation page/DonationPage';
 import Statistics from './Page/Statistics Page/Statistics';
+import SingleCardpage from './Page/singleCardPage/SingleCardpage';
 
 const router = createBrowserRouter([
   {
@@ -18,11 +19,15 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Homepage></Homepage>,
-        loader: () => fetch("/public/NGO.json")
+      },
+      {
+        path:"/:cardId",
+        element:<SingleCardpage></SingleCardpage>,
       },
       {
         path: "/donation",
         element:<DonationPage></DonationPage>,
+        loader: ()=>fetch("/public/NGO.json")
       },
       {
         path:"/statistics",

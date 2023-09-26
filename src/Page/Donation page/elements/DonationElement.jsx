@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 const DonationElement = ({donatetedCard}) => {
-    console.log(donatetedCard)
     return (
         <div style={{background:donatetedCard.colors[0]}} className="card md:card-side bg-base-100 shadow-xl">
         <figure><img className="w-auto md:h-full md:w-80" src={donatetedCard.image[0]} alt="Movie"/></figure>

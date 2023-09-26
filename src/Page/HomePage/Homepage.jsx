@@ -17,17 +17,17 @@ const Homepage = () => {
     return (
         <>
             <div className="bg-[url('https://i.ibb.co/Z6v8rLY/fc1f79e18cdc1a12320b9b10ec3e253d-min.jpg')] bg-cover mt-5 bg-center min-h-96">
-            <div className="w-full p-5 md:p-36 text-center h-full bg-[#ffffffc5]">
+            <div className="w-full p-5 md:p-36 text-center h-full bg-[#ffffffea]">
             <h2 className="text-2xl md:text-4xl mv-3 md:mb-5 font-bold">I Grow By Helping People In Need</h2>
             <form className="md:join py-3" onSubmit={e => e.preventDefault()}>
                 <div>
                     <div>
-                    <input id="searchFrom" className="h-10 rounded md:input mb-2 md:mb-0 input-bordered join-item" placeholder="Search here...."  />
+                    <input id="searchFrom" className="h-10 rounded md:input mb-2 md:mb-0   md:input-bordered join-item" placeholder="Search here...."  />
                     </div>
                 </div>
                 <div className="indicator">
                     <button onClick={() => {setbtnclicked(true) 
-                    setsearchingArray(document.getElementById("searchFrom").value)}} className=" py-1 rounded-md px-5 md:btn  hover:text-black text-white bg-[#ff373e] md:join-item">Search</button>
+                    setsearchingArray(document.getElementById("searchFrom").value)}} className=" py-1 rounded-md px-5 hover:text-black  md:join-item text-white bg-[#ff373e]">Search</button>
                 </div>
             </form>
 

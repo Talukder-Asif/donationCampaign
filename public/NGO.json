@@ -6,7 +6,7 @@
       "colors": ["#d9e5ff", "#0052FF", "#aec8ff"],
       "description": "Support our healthcare initiatives by donating for essential medical supplies. Your contribution helps us provide medical supplies to those in need.",
       "price": 25,
-      "image": ["https://i.ibb.co/CKXd0Qh/Medical-Supply.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/CKXd0Qh/Medical-Supply.jpg","https://i.ibb.co/4N1wTzQ/Medical-Supply-min.jpg"]
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "colors": ["#feeae3", "#F87147", "#fdd2c4"],
       "description": "Contribute to our Meal Assistance Fund to help provide nutritious meals to individuals and families facing food insecurity.",
       "price": 10,
-      "image": ["https://i.ibb.co/MP7n4GP/Meal-Assistance-Fund.png","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/MP7n4GP/Meal-Assistance-Fund.png","https://i.ibb.co/2Yg5bzK/Meal-Assistance-Fund-min.jpg"]
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "colors": ["#ffe3e4", "#FF444A", "#ffc3c5"],
       "description": "Support education for underprivileged students by contributing to our Scholarship Program. Your donation helps students access quality education.",
       "price": 50,
-      "image": ["https://i.ibb.co/RpXnZ53/scholarship-program.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/RpXnZ53/scholarship-program.jpg","https://i.ibb.co/jgf5L8Y/scholarship-program-min.jpg"]
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "colors": ["#ebf6e2", "#79C23F", "#d4ecc1"],
       "description": "Join our Warm Clothing Drive to provide winter clothing to those in need. Your donation helps keep people warm during cold seasons.",
       "price": 15,
-      "image": ["https://i.ibb.co/FY9DFFN/Warm-Clothing-Drive.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/FY9DFFN/Warm-Clothing-Drive.jpg","https://i.ibb.co/M1pwTt5/Warm-Clothing-Drive-min.jpg"]
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "colors": ["#d9e5ff", "#0052FF", "#aec8ff"],
       "description": "Contribute to our Healthcare Outreach program, which offers medical services to underserved communities. Your donation makes a difference in healthcare access.",
       "price": 35,
-      "image": ["https://i.ibb.co/4sMKWg4/Healthcare-Outreach.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/4sMKWg4/Healthcare-Outreach.jpg","https://i.ibb.co/stgbG3Q/Healthcare.jpg"]
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "colors": ["#feeae3", "#F87147", "#fdd2c4"],
       "description": "Help us provide emergency food relief to those affected by natural disasters and crises. Your donation ensures that no one goes hungry during difficult times.",
       "price": 20,
-      "image": ["https://i.ibb.co/qWGs4t1/Emergency-Food-Relief.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/qWGs4t1/Emergency-Food-Relief.jpg","https://i.ibb.co/0mjtzbM/Emergency-Food-Relief-min.jpg"]
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "colors": ["#ffe3e4", "#FF444A", "#ffc3c5"],
       "description": "Support our Digital Education Initiative, aimed at providing online learning resources to students in remote areas. Your donation bridges the digital divide in education.",
       "price": 40,
-      "image": ["https://i.ibb.co/ScMQ4rL/Digital-Education-Initiative.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/ScMQ4rL/Digital-Education-Initiative.jpg","https://i.ibb.co/2821nVH/Digital-Education-Initiative-min.jpg"]
     },
     {
       "id": 8,
@@ -69,7 +69,7 @@
       "colors": ["#ebf6e2", "#79C23F", "#d4ecc1"],
       "description": "Donate to our Winter Clothing for Kids program, ensuring that children have warm clothing to stay healthy and comfortable during winter.",
       "price": 12,
-      "image": ["https://i.ibb.co/1GjtxV7/Winter-Clothing-for-Kids.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/1GjtxV7/Winter-Clothing-for-Kids.jpg","https://i.ibb.co/2vzV17B/Winter-Clothing-for-Kids-min.jpg"]
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "colors": ["#d9e5ff", "#0052FF", "#aec8ff"],
       "description": "Contribute to our Health Education Workshops, promoting awareness and preventive healthcare practices in communities. Your donation supports health education programs.",
       "price": 30,
-      "image": ["https://i.ibb.co/k80Zjk8/Health-Education-Workshops.png","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/k80Zjk8/Health-Education-Workshops.png","https://i.ibb.co/47qXdXh/Donate-for-Medical.jpg"]
     },
     {
       "id": 10,
@@ -87,7 +87,7 @@
       "colors": ["#feeae3", "#79C23F", "#fdd2c4"],
       "description": "Support our Community Soup Kitchens, which provide hot meals to homeless individuals and those in need. Your donation ensures no one goes hungry.",
       "price": 8,
-      "image": ["https://i.ibb.co/bX0rysz/Community-Soup-Kitchens.jpg","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/bX0rysz/Community-Soup-Kitchens.jpg","https://i.ibb.co/HHd1BF0/Food-min.png"]
     },
     {
       "id": 11,
@@ -96,7 +96,7 @@
       "colors": ["#ffe3e4", "#FF444A", "#ffc3c5"],
       "description": "Help us offer STEM (Science, Technology, Engineering, and Mathematics) education scholarships to talented students. Your donation empowers future innovators.",
       "price": 55,
-      "image": ["https://i.ibb.co/D9qTrN4/STEM-Education-Scholarships.png","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/D9qTrN4/STEM-Education-Scholarships.png","https://i.ibb.co/Ldhh9h4/Rectangle-4288-min.png"]
     },
     {
       "id": 12,
@@ -105,7 +105,7 @@
       "colors": ["#ebf6e2", "#F87147", "#d4ecc1"],
       "description": "Join our Clothing for the Homeless initiative, providing clean and warm clothing to individuals experiencing homelessness. Your donation offers comfort and dignity.",
       "price": 18,
-      "image": ["https://i.ibb.co/V3h6dtb/Clothing-for-the-Homeless.png","https://example.com/medical.jpg"]
+      "image": ["https://i.ibb.co/V3h6dtb/Clothing-for-the-Homeless.png","https://i.ibb.co/dGw2gfL/Clothing.jpg"]
     }
   ]
   

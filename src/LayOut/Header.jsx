@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import"./header.css"
 
 const Header = () => {
@@ -6,7 +6,9 @@ const Header = () => {
         <div className="sticky top-0 md:relative z-50">
             <div className=" md:navbar md:absolute bg-[#ffffff61]">
         <div className="flex-1">
+            <Link to={"/"}>
             <img className="w-40 mx-auto md:mx-0 my-3" src="https://i.ibb.co/ZSBYL9k/Logo.png"></img>
+            </Link>
         </div>
         <div className="flex-none text-center md:text-right">
             <ul className="text-lg font-bold menu-horizontal md:px-1">

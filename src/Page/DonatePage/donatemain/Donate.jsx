@@ -1,38 +1,44 @@
 import { useEffect, useState } from "react";
-import { useLoaderData} from "react-router-dom";
-import { getStoreDonationData } from "../../utility/localstore";
-import DonationElement from "./elements/DonationElement";
+import { getStoreDonationData } from "../../../utility/localstore";
+import Delement from "../donateelement/Delement";
 
-const DonationPage = () => {
+const Donate = () => {
+
+    const [data, setdata] = useState([]);
+    useEffect(()=>{
+        fetch('NGO.json')
+        .then(ref => ref.json())
+        .then(data => setdata(data))
+    },[])
+
     const [doneted, setdoneted] = useState([]);
-    const data = useLoaderData();
     useEffect(() => {
         const localData = getStoreDonationData();
-        if(data.length > 0){
-            const donation = data.filter(data => localData.includes(data.id));
+        if(data?.length > 0){
+            const donation = data?.filter(data => localData?.includes(data?.id));
             setdoneted(donation);
         }
-    },[])
+    },[data])
+    // console.log(doneted)
+
     const [showData ,setshowData] = useState([])
     useEffect(()=>{
-        if(doneted.length >= 4)
+        if(data.length >= 4)
         {
             setshowData(doneted.slice(0,4));
         }
     },[doneted])
+    // console.log(showData)
 
     const [isclick, setisclick] = useState([false])
-console.log(isclick)
-    console.log(showData);
-
     return (
         <div>
         <div className="grid md:grid-cols-2 gap-5 pt-5 md:pt-24">
             {
-                isclick?showData?.map(donatetedCard =>(
-                    <DonationElement key={donatetedCard.id} donatetedCard={donatetedCard} ></DonationElement>
+                isclick? showData?.map(donatetedCard =>(
+                    <Delement key={donatetedCard?.id} donatetedCard={donatetedCard} ></Delement>
                 )):doneted?.map(donatetedCard =>(
-                    <DonationElement key={donatetedCard.id} donatetedCard={donatetedCard} ></DonationElement>
+                    <Delement key={donatetedCard?.id} donatetedCard={donatetedCard} ></Delement>
                 ))
             }
         </div>
@@ -43,4 +49,4 @@ console.log(isclick)
     );
 };
 
-export default DonationPage;
+export default Donate;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 /* eslint-disable react/prop-types */
 const NgoDonar = ({donateCard}) => {
     return (
-        <Link to={`/${donateCard.id}`}>
+        <Link to={`statistics/${donateCard.id}`}>
           <div style={{background:donateCard.colors[0] }} className={`card  card-compact shadow-xl`}>
           <figure><img  className="w-full " src={donateCard.image[0]} alt={donateCard.title} /></figure>
            <div className={`card-body`}>

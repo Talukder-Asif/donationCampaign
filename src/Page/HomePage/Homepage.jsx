@@ -9,14 +9,14 @@ const Homepage = () => {
         .then(data => setngoDonates(data))
     },[])
     const [btnclicked, setbtnclicked] = useState(false);
-    console.log(btnclicked)
+    // console.log(btnclicked)
     const newNgoDonates = ngoDonates.filter(data => data.category.toLowerCase() === searchingArray.toLowerCase())
     
-    console.log(newNgoDonates)
+    // console.log(newNgoDonates)
 
     return (
         <>
-            <div className="bg-[url('https://i.ibb.co/Z6v8rLY/fc1f79e18cdc1a12320b9b10ec3e253d-min.jpg')] bg-cover mt-5 bg-center min-h-96">
+            <div className="bg-[url('https://i.ibb.co/Z6v8rLY/fc1f79e18cdc1a12320b9b10ec3e253d-min.jpg')] bg-cover mt-5 md:mt-0 bg-center min-h-96">
             <div className="w-full p-5 md:p-36 text-center h-full bg-[#ffffffea]">
             <h2 className="text-2xl md:text-4xl mv-3 md:mb-5 font-bold">I Grow By Helping People In Need</h2>
             <form className="md:join py-3" onSubmit={e => e.preventDefault()}>
@@ -34,7 +34,7 @@ const Homepage = () => {
             </div>
             </div>
 
-            <div className="grid mt-10 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid mt-10 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {
                 (btnclicked && searchingArray.length!==0) ?
                     newNgoDonates?.map((donateCard)=>(<NgoDonar key={donateCard?.id} donateCard={donateCard}></NgoDonar>

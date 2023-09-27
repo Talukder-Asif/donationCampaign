@@ -1,8 +1,11 @@
-# React + Vite
+# Questions
+Add Readme.md file and will have the following: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Add at least 3 Project features 
 
-Currently, two official plugins are available:
+## My Answer....
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- If you click on a card on home page, then it will take you to the card details page.
+- In card details page, if you click on the button then it will give you a toast and your donation will strode in local storage.
+
+- Iy you search by chetagory name of eatch card then it will give you the same cetagory's card. 

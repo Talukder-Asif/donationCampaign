@@ -7,31 +7,32 @@ import {
 } from "react-router-dom";
 import Mainlayout from './LayOut/Mainlayout';
 import Homepage from './Page/HomePage/Homepage';
-import DonationPage from './Page/Donation page/DonationPage';
 import Statistics from './Page/Statistics Page/Statistics';
 import SingleCardpage from './Page/singleCardPage/SingleCardpage';
+import Donate from './Page/DonatePage/donatemain/Donate';
+import ErrorPage from './Page/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Mainlayout></Mainlayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:"/",
         element:<Homepage></Homepage>,
       },
       {
-        path:"/:cardId",
+        path:"statistics/:cardId",
         element:<SingleCardpage></SingleCardpage>,
-      },
-      {
-        path: "/donation",
-        element:<DonationPage></DonationPage>,
-        loader: ()=>fetch("/public/NGO.json")
       },
       {
         path:"/statistics",
         element:<Statistics></Statistics>
+      },
+      {
+        path:"/donate",
+        element:<Donate></Donate>
       }
     ]
   },

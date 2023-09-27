@@ -1,16 +1,7 @@
 import { PieChart, Pie, Cell } from "recharts";
 import { getStoreDonationData } from "../../utility/localstore";
-
-
-const localStorage = getStoreDonationData();
-let totalDonation = 12;
-let doneted = localStorage.length
+import { useEffect, useState } from "react";
 const COLORS = ["#FF444A", "#00C49F"];
-const data = [
-  { name: "Group A", value: totalDonation-doneted},
-  { name: "Group B", value: doneted}
-];
-
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
   cx,
@@ -36,6 +27,24 @@ const renderCustomizedLabel = ({
   );
 };
 const Statistics = () => {
+  const localStorage = getStoreDonationData();
+  const[doneted, setdoneted] = useState([]);
+  useEffect(()=>{
+    setdoneted(localStorage.length)
+  },[])
+
+  const [totalDonation, settotalDonation] = useState(12);
+  useEffect(()=>{
+    settotalDonation(totalDonation-doneted)
+  },[])
+
+  // console.log(totalDonation)
+
+
+  const data = [
+    { name: "Group A", value: totalDonation},
+    { name: "Group B", value: doneted}
+  ];
     return (
         <div className=" md:pt-28 flex justify-evenly">
         <div>

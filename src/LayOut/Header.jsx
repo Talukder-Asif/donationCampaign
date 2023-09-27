@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex-none text-center md:text-right">
             <ul className="text-lg font-bold menu-horizontal md:px-1">
             <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={"/"}>Home</NavLink></li>
-            <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={'/donation'}>Donation</NavLink></li>
+            <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={'/donate'}>Donation</NavLink></li>
             <li className="ml-2 md:ml-5 lg:ml-10"><NavLink to={'/statistics'}>Statistics</NavLink></li>
             </ul>
         </div>

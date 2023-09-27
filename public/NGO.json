@@ -84,7 +84,7 @@
       "id": 10,
       "title": "Community Soup Kitchens",
       "category": "Food",
-      "colors": ["#feeae3", "#79C23F", "#fdd2c4"],
+      "colors": ["#feeae3", "#F87147", "#fdd2c4"],
       "description": "Support our Community Soup Kitchens, which provide hot meals to homeless individuals and those in need. Your donation ensures no one goes hungry.",
       "price": 8,
       "image": ["https://i.ibb.co/bX0rysz/Community-Soup-Kitchens.jpg","https://i.ibb.co/HHd1BF0/Food-min.png"]
@@ -102,7 +102,7 @@
       "id": 12,
       "title": "Clothing for the Homeless",
       "category": "Clothing",
-      "colors": ["#ebf6e2", "#F87147", "#d4ecc1"],
+      "colors": ["#ebf6e2", "#79C23F", "#d4ecc1"],
       "description": "Join our Clothing for the Homeless initiative, providing clean and warm clothing to individuals experiencing homelessness. Your donation offers comfort and dignity.",
       "price": 18,
       "image": ["https://i.ibb.co/V3h6dtb/Clothing-for-the-Homeless.png","https://i.ibb.co/dGw2gfL/Clothing.jpg"]

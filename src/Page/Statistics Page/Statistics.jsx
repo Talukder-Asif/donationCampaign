@@ -36,7 +36,7 @@ const Statistics = () => {
   const [totalDonation, settotalDonation] = useState(12);
   useEffect(()=>{
     settotalDonation(totalDonation-doneted)
-  },[])
+  },[doneted])
 
   // console.log(totalDonation)
 

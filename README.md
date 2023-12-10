@@ -1,11 +1,9 @@
-# Questions
-Add Readme.md file and will have the following: 
+# Project's 3 features
 
-- Add at least 3 Project features 
+- If you click on a card on the home page, it will take you to the card details page.
+- On the card details page, if you click on the button, it will give you a toast, and your donation will be stored in local storage.
 
-## My Answer....
+- If you search by the category name of each card then it will give you the same category's card. 
 
-- If you click on a card on home page, then it will take you to the card details page.
-- In card details page, if you click on the button then it will give you a toast and your donation will strode in local storage.
 
-- Iy you search by chetagory name of eatch card then it will give you the same cetagory's card. 
+## LiveLink: [DonationCampain](https://deft-sherbet-dc93bd.netlify.app/)
